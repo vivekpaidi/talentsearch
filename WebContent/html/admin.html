@@ -1,0 +1,66 @@
+<div class = "container-fluid">
+	<div class = "row">
+		<div class = "col-md-3 col-lg-3 divider">
+			<div class="row">
+				<div class="tree-wrapper" id='userTree'>
+				</div>				
+			</div>
+		</div>
+		<div id="userDetails" class="col-md-9 col-lg-9 pad-0">
+			<div class="container-fluid tab-content-wrapper ">
+				<div class="row">
+					<div class="col-md-12 col-lg-12">
+						<form id="userForm">
+							<div class="row frm-element">
+								<div class="col-md-2 col-lg-2 " >User Id</div>
+								<div class="col-md-4 col-lg-4 ">
+									<input id="userId" type="text"  
+									class="form-control" placeholder="User Id"
+									name="userid" required>
+								</div>
+								<div class="col-md-2 col-lg-2  align-center" style="padding-left: 3px;">Password
+								</div>
+								<div class="col-md-4 col-lg-4" >
+									<input id="password" type="password" class="form-control"
+									placeholder="Password" name="password" required>
+								</div>
+							</div>
+							<div class="row frm-element">
+								<div class="col-md-2 col-lg-2 " >User Name</div>
+								<div class="col-md-4 col-lg-4 ">
+									<input id="userName" type="text"  
+									class="form-control" placeholder="User Name"
+									name="username" required>
+								</div>
+								<div class="col-md-2 col-lg-2 align-center">Admin</div>
+								<div class="col-md-4 col-lg-4 ">
+									<div id = "admin"></div>
+								</div>
+							</div>
+							<div class="row frm-element">
+								<div class="col-md-2 col-lg-2">Resource</div>
+								<div class="col-md-4 col-lg-4 ">
+									<div id = "resource"></div>
+								</div>
+								<div class="col-md-2 col-lg-2  align-center" style="padding-left: 3px;">ParentId
+								</div>
+								<div class="col-md-4 col-lg-4" >
+									<input id="parentId" type="text" class="form-control"
+									placeholder="parentId" name="parentid" required>
+								</div>
+							</div>
+							<div class="row align-right">
+								<div class="col-md-12 col-lg-12" >
+									<button id = "userDetailsSave" class="btn btn-xs btn-primary btn-save">
+										Save
+									</button>
+								</div>
+							</div>
+						</form>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
